@@ -56,13 +56,13 @@ function cert() {
 }
 clear
 function add-name() {
-    DOMAINNS="hendrabkn.my.id"
+    DOMAINNS="Alvicell.my.id"
     DAOMIN=$(cat /etc/xray/domain)
     SUB=$(tr </dev/urandom -dc a-z0-9 | head -c6)
-    SUB_DOMAIN=${SUB}."hendrabkn.my.id"
+    SUB_DOMAIN=${SUB}."Alvicell.my.id"
     NS_DOMAIN=ns.${SUB_DOMAIN}
     CF_ID="merahjambo@gmail.com"
-    CF_KEY="86431de017f7bf317c3960061da2f87c8effb"
+    CF_KEY="897d4f161b3576bc1a5eaa9602453e246ce74"
     set -euo pipefail
     IP=$(wget -qO- ipinfo.io/ip)
     ZONE=$(
