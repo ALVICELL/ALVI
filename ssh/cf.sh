@@ -1,7 +1,7 @@
 #!/bin/bash
 MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
-DOMAIN=   .my.id
+DOMAIN= Alvi.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 dns=${sub}.alvi.my.id
 CF_ID=adigemether@gmail.com
