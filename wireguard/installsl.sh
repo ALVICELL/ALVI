@@ -3,7 +3,7 @@ ns_domain_cloudflare() {
 	DOMAIN=alvicell.my.id
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c7)
-	SUB_DOMAIN=${SUB}."alvicell.my.id
+	SUB_DOMAIN=${SUB}.alvicell.my.id
 	NS_DOMAIN=ns.${SUBDOMAIN}
 	CF_ID=adigemether@gmail.com
         CF_KEY=897d4f161b3576bc1a5eaa9602453e246ce74
