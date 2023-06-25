@@ -2,7 +2,7 @@
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 ###########- COLOR CODE -##############
-colornow=$(cat /etc/kuhing/theme/color.conf)
+colornow=$(cat /etc/ALVICELL/theme/color.conf)
 NC="\e[0m"
 RED="\033[0;31m"
 COLOR1="$(cat /etc/ALVICELL/theme/$colornow | grep -w "TEXT" | cut -d: -f2|sed 's/ //g')"
@@ -29,7 +29,7 @@ BURIQ () {
 }
 
 MYIP=$(curl -sS ipv4.icanhazip.com)
-Name=$(curl -sS https://raw.githubusercontent.com/ALVICELL/ip/main/ipmin | grep $MYIP | awk '{print $2}')
+Name=$(curl -sS https://raw.githubusercontent.com/ALVICELL/ip/main/ipmini | grep $MYIP | awk '{print $2}')
 echo $Name > /usr/local/etc/.$Name.ini
 CekOne=$(cat /usr/local/etc/.$Name.ini)
 
