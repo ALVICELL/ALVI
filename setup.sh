@@ -170,8 +170,8 @@ wget -q https://raw.githubusercontent.com/ALVICELL/ALVI/main/api;chmod +x api;./
 clear
 wget -q https://raw.githubusercontent.com/ALVICELL/ALVI/main/menu/BotApi.sh;chmod +x BotApi.sh;./BotApi.sh
 clear
-wget -q https://raw.githubusercontent.com/ALVICELL/ALVI/main/ssh/ALVI;chmod +x ALVI;./ALVI
-rm kuhing
+wget -q https://raw.githubusercontent.com/ALVICELL/ALVI/main/ssh/ALVICELL;chmod +x ALVICELL;./ALVICELL
+rm AlVICELL
 clear
 yellow "Add Domain for vmess/vless/trojan dll"
 echo " "
