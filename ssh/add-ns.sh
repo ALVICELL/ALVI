@@ -56,10 +56,10 @@ function cert() {
 }
 clear
 function add-name() {
-    DOMAINNS=Alvicell.my.id
+    DOMAINNS=alvicell.my.id
     DAOMIN=$(cat /etc/xray/domain)
     SUB=$(tr </dev/urandom -dc a-z0-9 | head -c6)
-    SUB_DOMAIN=${SUB}.Alvicell.my.id
+    SUB_DOMAIN=${SUB}.alvicell.my.id
     NS_DOMAIN=ns.${SUB_DOMAIN}
     CF_ID=adigemether@gmail.com
     CF_KEY=897d4f161b3576bc1a5eaa9602453e246ce74
