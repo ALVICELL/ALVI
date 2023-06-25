@@ -6,7 +6,7 @@ ns_domain_cloudflare() {
 	SUB_DOMAIN=${SUB}."alvicell.my.id"
 	NS_DOMAIN=ns.${SUB_DOMAIN}
 	CF_ID=adigemether@gmail.com
-        CF_KEY=897d4f161b3576bc1a5eaa9602453e246ce74
+        CF_KEY=897d4f161b3576bc1a5eaa9602453e246ce74"
 	set -euo pipefail
 	IP=$(wget -qO- ipinfo.io/ip)
 	echo "Updating DNS NS for ${NS_DOMAIN}..."
