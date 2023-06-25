@@ -200,31 +200,31 @@ wget https://raw.githubusercontent.com/ALVICELL/ALVI/main/ssh/cf.sh && chmod +x 
 rm -f /root/cf.sh
 clear
 fi
-cat <<EOF>> /etc/kuhing/theme/red
+cat <<EOF>> /etc/ALVICELL/theme/red
 BG : \E[40;1;41m
 TEXT : \033[0;31m
 EOF
-cat <<EOF>> /etc/kuhing/theme/green
+cat <<EOF>> /etc/ALVICELL/theme/green
 BG : \E[40;1;42m
 TEXT : \033[0;32m
 EOF
-cat <<EOF>> /etc/kuhing/theme/yellow
+cat <<EOF>> /etc/ALVICELL/theme/yellow
 BG : \E[40;1;43m
 TEXT : \033[0;33m
 EOF
-cat <<EOF>> /etc/kuhing/theme/blue
+cat <<EOF>> /etc/ALVICELL/theme/blue
 BG : \E[40;1;44m
 TEXT : \033[0;34m
 EOF
-cat <<EOF>> /etc/kuhing/theme/magenta
+cat <<EOF>> /etc/ALVICELL/theme/magenta
 BG : \E[40;1;95m
 TEXT : \033[0;95m
 EOF
-cat <<EOF>> /etc/kuhing/theme/cyan
+cat <<EOF>> /etc/ALVICELL/theme/cyan
 BG : \E[40;1;46m
 TEXT : \033[0;36m
 EOF
-cat <<EOF>> /etc/kuhing/theme/color.conf
+cat <<EOF>> /etc/ALVICELL/theme/color.conf
 magenta
 EOF
 
